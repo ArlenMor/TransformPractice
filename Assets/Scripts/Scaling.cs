@@ -6,7 +6,7 @@ public class Scaling : MonoBehaviour
 {
     [SerializeField] private float _scalingForce;
 
-    void Update()
+    private void Update()
     {
         transform.localScale += Vector3.one * _scalingForce;
     }
